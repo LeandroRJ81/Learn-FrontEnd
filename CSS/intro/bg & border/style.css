@@ -1,0 +1,41 @@
+body {
+    background-image: 
+    url('https://tourismteacher.com/wp-content/uploads/2022/08/camel-caravan-in-the-desert-on-a-sand-dune-at-suns-2022-01-11-07-07-36-utc-1024x683.jpg');
+    background-size: cover;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+}
+
+main {
+    background-color: #e5e5e5;
+    padding: 10px;
+    border-width: 2px;
+    border-color: #1c1a1d;
+    border-style: solid;
+}
+
+.box1 {
+    background-color: #169436;
+    border: dashed 2px #1c1a1d;
+    height: 64px;
+    width: 320px;
+}
+
+.box2 {
+    background-image: linear-gradient(to left, #2c2c2d, #f64348);
+    border-top: 4px dotted #1c1a1d;
+    height: 64px;
+    width: 320px;
+}
+
+.box3 {
+    background-color: #0077ff;
+    border: 2px solid #1c1a1d;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    height: 64px;
+    width: 320px;
+}
