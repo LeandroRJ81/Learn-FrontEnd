@@ -50,16 +50,33 @@ h2 {
 .button {
     background-color: #FF7255;
     border-radius: 8px;
+    border-color: #FF7255;
     color: #FFFFFF;
     padding: 16px 32px;
+    border: 1px solid; 
     text-decoration: none;
+    transition: 0.5s;
 }
+
+.button:hover {
+    background-color: #FFFFFF;
+    color: #FF7255;
+    border-radius: 8px;
+    padding: 16px 32px;
+    border-color: #FF7255;
+    border: 1px solid; 
+  }
   
 .transp-button {
     background-color: transparent;
     color: #FF725E;
     padding: 16px 32px;
     text-underline-offset: 4px;
+    cursor: pointer;
+}
+
+.transp-button:hover {
+    text-decoration: none;
 }
 
 .absolute {
